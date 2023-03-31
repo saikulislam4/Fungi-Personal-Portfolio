@@ -1,0 +1,662 @@
+/* -------------------X-Small devices (portrait phones, less than 576px)------------------- */
+   @media (min-width: 300px) and (max-width: 575.99px) {
+   /* ------------------common ------------------ */
+   .intro_title h2 {font-size: 15px; margin-bottom: 15px;}
+   .c_pera {font-size: 15px;width: 100%;}
+   .title {text-align: center;}
+   #intro .intro_title {margin-bottom: 20px;}
+   .design_eliment img {
+      width: 6%;
+   }
+
+
+   /* ------------------header section start ------------------ */
+   #header_sectionsd {height: 60px;} 
+   div#Navbar_icon {display: block;}
+   #navbar .main {padding: 10px 0px;}
+   #navbar .main .manu{display: none;}
+   #navbar .main .logo img {width: 120px;}
+   #navbar .main .icon i {display: block; margin-right: 1rem;}
+   #navbar .dropdown_manu ul{display: block; margin-bottom: 20px;}
+   #navbar .dropdown_manu ul li:hover a{color: white;}
+   #navbar .dropdown_manu ul li:active a{color: rgb(253, 86, 42);}
+   /* ------------------header section end ------------------ */
+
+   /* ------------------hero section start ------------------ */
+   #hero_area .main {padding: 202px 0px;display: block;}
+   #hero_area .main .item_left .link_group {display: flex;justify-content: space-between;}
+   #hero_area .main .item_left {width: 100%;}
+   #hero_area .main .item_left .link_group .btn {margin-right: 10px;}
+   #hero_area .main .item_left .link_group .hero_social li {margin-right: 10px; margin-top: 0;}
+   #hero_area .main {padding: 120px 0px;}
+   #hero_area .main .item_left small {font-size: 15px;}
+   #hero_area .main .item_left h1 {font-size: 30px;}
+   #hero_area .main .item_left p {font-size: 15px;}
+   #hero_area .main .item_left .link_group {margin-top: 20px;display: none;}
+   #hero_area .main .item_left .link_group .btn { padding: 3px 5px; height: 30px; display: none;}
+   #hero_area .main .item_right::after {display: none;}
+   /* ---------------right site--------------- */
+   #hero_area .main .item_right {width: 100%; padding: 10px 15px 0px 15px;}
+   #hero_area .main .item_right img {width: 100%;}
+   #hero_area .main .item_right img {position: relative;}
+   #hero_area .main .item_right ul li:nth-child(1) { top: 15px; left: 0px;}
+   #hero_area .main .item_right ul li h4 {font-size: 10px;}
+   #hero_area .main .item_right ul li p {font-size: 30px;margin-right: 20px;}
+   #hero_area .main .item_right ul li p span {font-size: 60%;top: 16%;left: 35%;}
+   #hero_area .main .item_right ul li:nth-child(2) {right: 10px;}
+   #hero_area .design_eliment .hero2_move {right: 10%;top: 16%;}
+   #hero_area .design_eliment .hero4_ele_updown {top: 30%;}
+   #hero_area .design_eliment .hero3_ele_updown {bottom: 4%;}
+   #hero_area .design_eliment .hero5_ele_move {bottom: 4%;}
+   /* ------------------hero section end ------------------ */
+   /* ------------------intro section start ------------------ */
+   #intro {margin-top: -60px;}
+   #intro .intros_card { flex-wrap: wrap;}
+   #intro .intro_card { width: 90%;margin-bottom: 20px;}
+   #intro .intro_card .item {padding: 15px; }
+   #intro .intro_card .item::after {transform: rotate(-5deg);}
+   #intro .intro_card .item:hover::after {transform: rotate(-5deg);}
+   #intro .intro_card .content_box h1 {font-size: 24px;}
+   #intro .intro_card .content_box .led {font-size: 15px;}
+
+   /* ------------------intro section end ------------------ */
+   /* ------------------About section start ------------------ */
+   #about {padding-top: 20px;padding-bottom: 20px;}
+   #about .main {flex-wrap: wrap;}
+   #about .main .images { width: 100%;margin-right: 0px;}
+   #about .main .content {width: 100%; margin-left: 10px;}
+   #about .main .images .about_imags1 {width: 70%;margin-left: 40px;}
+   #about .main .images .about_imags2 {width: 46%;left: 0;bottom: -39%;margin-left: 20px;}
+   #about .main .images::after {left: 6%; top: 40%; height: 30px;width: 30px;}
+   #about .main .images::before {right: 30%;bottom: -20%;}
+   #intro .intro_design {top: -4%;}
+
+   /* ------------------About right site section ------------------ */
+   #about .main .content {margin-top: 115px;padding: 10px; }
+   #about .main .personal_details {margin: 20px 0;}
+   #about .main .content h2 {font-size: 24px;margin-bottom: 15px; text-align: start;}
+   #about .main .content h2 {font-size: 24px;margin-bottom: 15px; text-align: start;}
+   #about .main .content p {font-size: 15px;text-align: start;}
+   #about .main .content span{font-size: 15px;}
+   #about .main .personal_details h4 {font-size: 15px;}
+   #about .main .personal_details .personal_info{text-align: start;}
+   #about .main .personal_details .personal_info p {font-size: 13px;}
+   #about .main .personal_details .numbners {     margin-left: 10px; text-align: start;}
+   #about .main .a_btn {padding: 12px 20px;}
+   #about .about_bg_animation1 {bottom: -2%;}
+
+
+   /* ------------------About section end ------------------ */
+   
+   /* ------------------Skill section start ------------------ */
+   #skill_section {padding: 20px 0px 20px 0px;}
+   #skill_section .main {flex-wrap: wrap;}
+   #skill_section .main .content_block {padding: 0px 10px;}
+   #skill_section .main .content_block span {font-size: 15px;}
+   #skill_section .main .content_block h2 {font-size: 24px;margin-bottom: 20px;}
+   #skill_section .main .content_block p {font-size: 15px;}
+   #skill_section .main .barfillers {margin: 15px 10px;}
+   #skill_section .main h2 {font-size: 15px;}
+   /* ------------------Skill section end ------------------ */
+
+   /* ------------------Profile section start ------------------ */
+   #portfolio_section {padding: 20px 0px 20px 0px;}
+   #portfolio_section .title {margin-bottom: 20px;}
+   #portfolio_section .button_group button:nth-child(1) {margin-bottom: 10px;}
+   #portfolio_section .button_group {margin-bottom: 20px;}
+   #portfolio_section .button_group button {font-size: 15px;}
+   #portfolio_section .items {padding: 0 0px; display: flex; justify-content: space-between; flex-wrap: wrap; padding: 0 10px;}
+   #portfolio_section .items .main {width: 100%;}
+   #portfolio_section .items .main .box_content {top: 100%;opacity: 1; width: 100%; background: #fd562a; padding: 30px 0 20px;}
+   #portfolio_section .items .main .box { height: 300px;}
+   #portfolio_section .items .main .box img{transform: translate(-1%, -26%); width: 102%;}
+   #portfolio_section .items .main:hover .box_content {top: 100%;opacity: 1;}
+   #portfolio_section .items .main .icon {opacity: 1;top: 0%;}
+   #portfolio_section .items .main:hover .icon {top: 0%;opacity: 1;}
+   #portfolio_section .items .main:hover::before {display: none;}
+   #portfolio_section .items .main:hover::after {display: none;}
+   #portfolio_section .items .main .icon a {background: rgb(255, 255, 255);}
+   #portfolio_section .about_bg_animation {top: 1%;}
+
+   /* ------------------service section start ------------------ */
+   #service_section {padding: 20px 0px 20px 0px;}
+   #service_section .main .title {margin-bottom: 20px;}
+   #service_section .items .main {width: 100%;}
+   #service_section .items .main .box {padding: 20px 10px;}
+   #service_section .items .main .box h2 {font-size: 24px;margin-bottom: 20px;}
+   #service_section .items .main .box .icon_box {font-size: 24px; margin-bottom: 20px;}
+   #service_section .items .main .box p {font-size: 15px;}
+   #service_section .about_bg_animation {top: 2%;}
+   #service_section .about_bg_animation1 {top: 99%;}
+   #service_section .about_bg_animation2 {bottom: 0%;}
+  
+   /* ------------------service section end ------------------ */
+
+   /* ------------------feature section start ------------------ */
+   #features_section {padding: 20px 0px 20px 0px;}
+   .image_section.aos-init.aos-animate {padding: 0 10px;}
+   #features_section .main .image_section .imag_wrap img {width: 100%;}
+   #features_section .main {display: flex;justify-content: space-between; flex-wrap:wrap ;}
+   #features_section .main .image_section{width: 100%;}
+   #features_section .main .image_contant {padding: 0 10px;margin-left: 0px;}
+   #features_section .main .image_contant .block_title {margin-bottom: 20px; margin-top: 20px;}
+   #features_section .main .image_contant .block_title span {font-size: 15px;}
+   #features_section .main .image_contant .block_title h2 {font-size: 24px; margin-bottom: 20px;}
+   #features_section .main .image_contant p {font-size: 15px;}
+   #features_section .main .image_contant .features_list .items {margin-bottom: 20px;}
+   #features_section .main .image_contant .features_list .content_wraper h4 {font-size: 20px;margin-bottom: 5px;}
+   /* ------------------feature section end ------------------ */
+
+   /* ------------------testimonial section start ------------------ */
+   #testimonial_section {padding: 20px 0px 20px 0px;}
+   #testimonial_section .main .title {margin-bottom: 0px;}
+   #testimonial_section .main .testimonial_item .item_wraper {padding: 60px 20px 0px;}
+
+   /* ------------------Blog section Start ------------------ */
+   #blog_section {padding: 20px 0px 20px 0px;}
+   #blog_section .main .title {text-align: center;margin-bottom: 20px;}
+   #blog_section .main .title .intro_title p {width: 100%;}
+   #blog_section .main .content {flex-wrap: wrap;padding: 0 10px;}
+   #blog_section .main .content .item_right {width: 100%;padding: 0 0px; margin-bottom: 20px;}
+   #blog_section .main .content .item_right .post_content {text-align: start; left: 10px;bottom: 10px;right: 10px;margin-bottom: 12px; margin-top: 12px !important;}
+   #blog_section .main .content .item_right .post_content ul{display: flex; flex-wrap: wrap; margin-bottom: 20px;}
+   #blog_section .main .content .item_left {width: 100%;padding: 0 0px;}
+   #blog_section .main .content .item_right .post_content .b_r_i {font-size: 15px;}
+   #blog_section .main .content .item_right .post_content h3 {font-size: 24px;}
+   #blog_section .main .content .item_left .image_wrapper {display: flex;flex-wrap: wrap;}
+   #blog_section .main .content .item_left .post_content .main {margin-bottom: 20px;padding: 0 0px;width: 100%;}
+   #blog_section .main .content .item_left .post_content .main .item_wrpper .items {margin: 20px;}
+   #blog_section .main .item_left .main .item_wrpper .items h3 a {font-size: 20px;}
+   #blog_section .main .content .item_right .image_content {height: 300px;}
+   #blog_section .main .content .item_left .post_content .main .item_wrpper {height: 300px;}
+   #blog_section .about_bg_animation {top: 1%;}
+   #blog_section .about_bg_animation1 { bottom: 1%;}
+   #blog_section .about_bg_animation2 { bottom: 0%;}
+   
+   /* ------------------partner section Start ------------------ */
+   #partner_section {padding: 20px 0px 20px 0px;}
+   #partner_section .main {padding: 0 10px;}
+
+   /* ------------------contact section Start ------------------ */
+   #contact_section {padding: 20px 0px 0px 0px;}
+   #contact_section .main{padding: 0 10px; display: flex;flex-wrap: wrap;}
+   #contact_section .title {margin-bottom: 20px;}
+   #contact_section .contact {width: 100%; flex-wrap: wrap;}
+   #contact_section .contact_section {margin-bottom: 20px;}
+   #contact_section .contact_inf {width: 100%;flex-wrap: wrap;}
+   #contact_section .contact_inf .google_map {margin: 0;width: 100%;}
+   #contact_section .contact_inf .google_map .map {margin-right: 0; height: 300px;}
+   #contact_section .contact_inf .google_map .map .map_zoom {height: 100%;width: 100%;}
+   
+   #contact_section .contact_inf .coontact_form {padding: 20px 0px 20px 0px; }
+   #contact_section .contact_inf .coontact_form h3 {font-size: 24px; margin-bottom: 20px; }
+   #contact_section .contact_inf .coontact_form .input_group:nth-child(1) {width: 100%;}
+   #contact_section .contact_inf .coontact_form .input_group:nth-child(2) {width: 100%;}
+   #contact_section .contact_inf .coontact_form .input_group:nth-child(3) {width: 100%;text-align: center;}
+   #contact_section .about_bg_animation {top: 2%;}
+   
+   /* ------------------footer section Start ------------------ */
+   #footer_section {padding: 20px 0px 20px 0px;}
+   #footer_section .footer_toop {top: -18%;}
+   #footer_section .footer_center .content p {font-size: 15px;margin: 20px 0;}
+   #footer_section .footer_buttom {margin-top: 20px;}
+   #footer_section .footer_buttom .item_right {font-size: 14px; width: 100%; text-align: center;}
+   #footer_section .footer_buttom .item_left {font-size: 14px; width: 100%; text-align: center;}
+   #footer_section .footer_buttom .item_left ul li {font-size: 14px;margin-left: 0px;}
+   #footer_section .footer_buttom .item_left ul {justify-content: space-evenly;margin-top: 5px;}
+}
+
+
+/* -------------------------Medium devices (tablets, 768px and up)------------------------- */
+@media (min-width: 576px) and (max-width: 767.99px) {
+   /* ------------------common ------------------ */
+   .intro_title h2 {font-size: 20px; margin-bottom: 20px;}
+   .c_pera {width: 100%;}
+   .title {text-align: center;}
+   #intro .intro_title {margin-bottom: 20px;}
+   .design_eliment img { width: 6%;}
+
+
+   /* ------------------header section start ------------------ */
+   #header_sectionsd {height: 60px;} 
+   div#Navbar_icon {display: block;}
+   #navbar .main {padding: 10px 0px;}
+   #navbar .main .manu{display: none;}
+   #navbar .main .logo img {width: 120px;}
+   #navbar .main .icon i {display: block; margin-right: 1rem;}
+   #navbar .dropdown_manu ul{display: block; margin-bottom: 20px;}
+   #navbar .dropdown_manu ul li:hover a{color: white;}
+   #navbar .dropdown_manu ul li:active a{color: rgb(253, 86, 42);}
+   /* ------------------header section end ------------------ */
+
+   /* ------------------hero section start ------------------ */
+   #hero_area .main {padding: 202px 0px;display: block;}
+   #hero_area .main .item_left .link_group {display: flex;justify-content: space-between;}
+   #hero_area .main .item_left {width: 50%; padding: 0;}
+   #hero_area .main .item_left .link_group .btn {margin-right: 10px;}
+   #hero_area .main .item_left .link_group .hero_social li {margin-right: 10px; margin-top: 0;}
+   #hero_area .main {padding: 120px 10px; display: flex;}
+   #hero_area .main .item_left small {font-size: 20px;}
+   #hero_area .main .item_left h1 {font-size: 50px;}
+   #hero_area .main .item_left p {font-size: 20px;}
+   #hero_area .main .item_left .link_group {margin-top: 20px;display: none;}
+   #hero_area .main .item_left .link_group .btn { padding: 3px 5px; height: 30px; display: none;}
+   #hero_area .main .item_right::after {display: none;}
+   #hero_area .design_eliment .hero1_updown {left: 19%;top: 22%;}
+   #hero_area .design_eliment .hero4_ele_updown {left: 43%;top: 26%;}
+   #hero_area .design_eliment .hero3_ele_updown {bottom: 4%;}
+   #hero_area .design_eliment .hero2_move {top: 23%;}
+   /* ---------------right site--------------- */
+   #hero_area .main .item_right {width: 50%; padding: 0;}
+   #hero_area .main .item_right img {width: 100%;}
+   #hero_area .main .item_right img {position: relative;}
+   #hero_area .main .item_right ul li:nth-child(1) { top: 15px; left: 0px;}
+   #hero_area .main .item_right ul li h4 {font-size: 10px;}
+   #hero_area .main .item_right ul li p {font-size: 30px;margin-right: 20px;}
+   #hero_area .main .item_right ul li p span {font-size: 60%;top: 16%;left: 35%;}
+   #hero_area .main .item_right ul li:nth-child(2) {right: 10px;}
+   /* ------------------hero section end ------------------ */
+   /* ------------------intro section start ------------------ */
+   #intro {margin-top: -60px;}
+   #intro .intros_card { flex-wrap: wrap; display: flex; justify-content: space-between;}
+   #intro .intro_card { width: 49%; padding:0 10px; margin: 0; margin-bottom: 30px;}
+   #intro .intro_card .item {padding: 0px; }
+   #intro .intro_card .item::after {transform: rotate(-5deg);}
+   #intro .intro_card .item:hover::after {transform: rotate(-5deg);}
+   #intro .intro_card .content_box h1 {font-size: 24px;}
+   #intro .intro_card .content_box .led {font-size: 15px;}
+   #intro .intro_design {top: -2%;}
+
+   /* ------------------intro section end ------------------ */
+   /* ------------------About section start ------------------ */
+   #about {padding-top: 20px;padding-bottom: 20px;}
+   #about .main {flex-wrap: wrap;}
+   #about .main .images { width: 50%;margin-right: 0px;}
+   #about .main .content {width: 50%; margin-left: 0px;}
+   #about .main .images .about_imags1 {width: 70%;margin-left: 40px;}
+   #about .main .images .about_imags2 {width: 46%;left: 0;bottom: 45%;margin-left: 20px;}
+   #about .main .images::after {left: 6%; top: 15%; height: 30px;width: 30px;}
+   #about .main .images::before {right: 30%;bottom: 50%;}
+
+   /* ------------------About right site section ------------------ */
+   #about .main .content {margin-top: 115px;padding: 10px; }
+   #about .main .personal_details {margin: 20px 0;}
+   #about .main .content h2 {font-size: 24px;margin-bottom: 15px; text-align: start;}
+   #about .main .content h2 {font-size: 24px;margin-bottom: 15px; text-align: start;}
+   #about .main .content p {font-size: 15px;text-align: start;}
+   #about .main .content span{font-size: 15px;}
+   #about .main .personal_details h4 {font-size: 15px;}
+   #about .main .personal_details .personal_info{text-align: start;}
+   #about .main .personal_details .personal_info p {font-size: 13px;}
+   #about .main .personal_details .numbners {     margin-left: 10px; text-align: start;}
+   #about .main .a_btn {padding: 12px 20px;}
+   .design_element {display: none;}
+
+
+   /* ------------------About section end ------------------ */
+   
+   /* ------------------Skill section start ------------------ */
+   #skill_section {padding: 20px 0px 20px 0px;}
+   #skill_section .main {flex-wrap: wrap; padding: 0 10px;} 
+   #skill_section .main .content_block { width: 50%;}
+   #skill_section .main .content_block span {font-size: 15px;}
+   #skill_section .main .content_block h2 {font-size: 30px;margin-bottom: 20px;}
+   #skill_section .main .content_block p {font-size: 15px;}
+   #skill_section .main .barfillers { width: 50%; margin: 0;}
+   #skill_section .main h2 {font-size: 15px;}
+   /* ------------------Skill section end ------------------ */
+
+   /* ------------------Protfolio section start ------------------ */
+   #portfolio_section {padding: 20px 0px 20px 0px;}
+   #portfolio_section .title {margin-bottom: 20px;}
+   #portfolio_section .button_group button:nth-child(1) {margin-bottom: 10px;}
+   #portfolio_section .button_group {margin-bottom: 20px;}
+   #portfolio_section .button_group button {font-size: 15px;}
+   #portfolio_section .items {padding: 0 0px; display: flex; justify-content: space-between; flex-wrap: wrap; padding: 0 10px;}
+   #portfolio_section .items .main {width: 48.5%;}
+   #portfolio_section .items .main .box_content {top: 100%;opacity: 1; width: 100%; background: #fd562a; padding: 30px 0 20px;}
+   #portfolio_section .items .main .box { height: 300px;}
+   #portfolio_section .items .main .box img{transform: translate(-1%, -26%); width: 102%;}
+   #portfolio_section .items .main:hover .box_content {top: 100%;opacity: 1;}
+   #portfolio_section .items .main .icon {opacity: 1;top: 0%;}
+   #portfolio_section .items .main:hover .icon {top: 0%;opacity: 1;}
+   #portfolio_section .items .main:hover::before {display: none;}
+   #portfolio_section .items .main:hover::after {display: none;}
+   #portfolio_section .items .main .icon a {background: rgb(255, 255, 255);}
+   #portfolio_section .about_bg_animation {top: 3%;}
+
+   /* ------------------service section start ------------------ */
+   #service_section {padding: 20px 0px 20px 0px;}
+   #service_section .main .title {margin-bottom: 20px;}
+   #service_section .items .main {width: 50%;}
+   #service_section .items .main .box {padding: 20px 10px;}
+   #service_section .items .main .box h2 {font-size: 24px;margin-bottom: 20px;}
+   #service_section .items .main .box .icon_box {font-size: 24px; margin-bottom: 20px;}
+   #service_section .items .main .box p {font-size: 15px;}
+   #service_section .about_bg_animation {top: 2%;}
+   #service_section .about_bg_animation1 {top: 97%;}
+   #service_section .about_bg_animation2 {bottom: 0%;}
+  
+   /* ------------------service section end ------------------ */
+
+   /* ------------------feature section start ------------------ */
+   #features_section {padding: 20px 0px 20px 0px;}
+   .image_section.aos-init.aos-animate {padding: 0 10px;}
+   #features_section .main .image_section .imag_wrap img {width: 100%;}
+   #features_section .main {display: flex;justify-content: space-between; flex-wrap:wrap ; padding: 0 10px;}
+   #features_section .main .image_section{width: 48%;}
+   #features_section .main .image_contant {width: 48%; margin-left: 0px; padding-left: 0px;}
+   #features_section .main .image_contant .block_title {margin-bottom: 20px; margin-top: 20px;}
+   #features_section .main .image_contant .block_title span {font-size: 15px;}
+   #features_section .main .image_contant .block_title h2 {font-size: 30px; margin-bottom: 20px;}
+   #features_section .main .image_contant p {font-size: 15px;}
+   #features_section .main .image_contant .features_list .items {margin-bottom: 20px;}
+   #features_section .main .image_contant .features_list .content_wraper h4 {font-size: 20px;margin-bottom: 5px;}
+   /* ------------------feature section end ------------------ */
+
+   /* ------------------testimonial section start ------------------ */
+   #testimonial_section {padding: 20px 0px 20px 0px;}
+   #testimonial_section .main .title {margin-bottom: 0px;}
+   #testimonial_section .main .testimonial_item .item_wraper {padding: 60px 20px 0px;}
+
+   /* ------------------Blog section Start ------------------ */
+   #blog_section {padding: 20px 0px 20px 0px;}
+   #blog_section .main .title {text-align: center;margin-bottom: 20px;}
+   #blog_section .main .title .intro_title p {width: 100%;}
+   #blog_section .main .content {flex-wrap: wrap;padding: 0 10px;}
+   #blog_section .main .content .item_right {width: 100%;padding: 0 0px; margin-bottom: 20px;}
+   #blog_section .main .content .item_right .post_content {text-align: start; left: 10px;bottom: 10px;right: 10px;margin-bottom: 12px; margin-top: 12px !important;}
+   #blog_section .main .content .item_right .post_content ul{display: flex; flex-wrap: wrap; margin-bottom: 20px;}
+   #blog_section .main .content .item_left {width: 100%;padding: 0 0px;}
+   #blog_section .main .content .item_right .post_content .b_r_i {font-size: 15px;}
+   #blog_section .main .content .item_right .post_content h3 {font-size: 24px;}
+   #blog_section .main .content .item_left .image_wrapper {display: flex;flex-wrap: wrap;}
+   #blog_section .main .content .item_left .post_content .main {margin-bottom: 20px;padding: 0 0px;width: 49%;}
+   #blog_section .main .content .item_left .post_content .main .item_wrpper .items {margin: 20px;}
+   #blog_section .main .item_left .main .item_wrpper .items h3 a {font-size: 20px;}
+   #blog_section .main .content .item_right .image_content {height: 400px;}
+   #blog_section .main .content .item_left .post_content .main .item_wrpper {height: 400px;}
+   #blog_section .about_bg_animation {top: 2%;}
+   #blog_section .about_bg_animation1 { bottom: 0%;}
+   #blog_section .about_bg_animation2 {bottom: 0%;}
+   
+   /* ------------------partner section Start ------------------ */
+   #partner_section {padding: 20px 0px 20px 0px;}
+   #partner_section .main {padding: 0 10px;}
+
+   /* ------------------contact section Start ------------------ */
+   #contact_section {padding: 20px 0px 0px 0px;}
+   #contact_section .main{padding: 0 10px; display: flex;flex-wrap: wrap;}
+   #contact_section .title {margin-bottom: 20px;}
+   #contact_section .contact {width: 100%; flex-wrap: wrap;}
+   #contact_section .contact_section {margin-bottom: 20px;}
+   #contact_section .contact_inf {width: 100%;flex-wrap: wrap;}
+   #contact_section .contact_inf .google_map {margin: 0;width: 100%;}
+   #contact_section .contact_inf .google_map .map {margin-right: 0; height: 300px;}
+   #contact_section .contact_inf .google_map .map .map_zoom {height: 100%;width: 100%;}
+   
+   #contact_section .contact_inf .coontact_form {padding: 20px 0px 20px 0px; }
+   #contact_section .contact_inf .coontact_form h3 {font-size: 24px; margin-bottom: 20px; }
+   #contact_section .contact_inf .coontact_form .input_group:nth-child(1) {width: 49%;}
+   #contact_section .contact_inf .coontact_form .input_group:nth-child(2) {width: 49%;}
+   #contact_section .contact_inf .coontact_form .input_group:nth-child(3) {width: 100%;text-align: center;}
+   #contact_section .about_bg_animation {top: 2%;}
+   
+   /* ------------------footer section Start ------------------ */
+   #footer_section {padding: 20px 0px 20px 0px;}
+   #footer_section .footer_toop {top: -18%;}
+   #footer_section .footer_center .content p {font-size: 15px;margin: 20px 0;}
+   #footer_section .footer_buttom {margin-top: 20px;}
+   #footer_section .footer_buttom .item_right {font-size: 14px; width: 50%; text-align: center;}
+   #footer_section .footer_buttom .item_left {font-size: 14px; width: 50%; text-align: center;}
+   #footer_section .footer_buttom .item_left ul li {font-size: 14px;margin-left: 0px;}
+   #footer_section .footer_buttom .item_left ul {margin-top: 0px;}
+
+}
+
+
+/* -------------------------Large devices (desktops, 992px and up)------------------------- */
+
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+   /* ------------------common ------------------ */
+   .c_pera {width: 80%;}
+   .title {text-align: center;}
+   #intro .intro_title {margin-bottom: 20px;}
+
+
+   /* ------------------header section start ------------------ */
+   #header_sectionsd {height: 60px;} 
+   div#Navbar_icon {display: block;}
+   #navbar .main {padding: 10px 0px;}
+   #navbar .main .manu{display: none;}
+   #navbar .main .logo img {width: 120px;}
+   #navbar .main .icon i {display: block; margin-right: 1rem;}
+   #navbar .dropdown_manu ul{display: block; margin-bottom: 20px;}
+   #navbar .dropdown_manu ul li:hover a{color: white;}
+   #navbar .dropdown_manu ul li:active a{color: rgb(253, 86, 42);}
+
+
+   /* ------------------hero section start ------------------ */
+   #hero_area .main {padding: 202px 0px;display: block;}
+   #hero_area .main .item_left .link_group {display: flex;justify-content: space-between;}
+   #hero_area .main .item_left {width: 50%; padding: 0;}
+   #hero_area .main .item_left .link_group .btn {margin-right: 10px;}
+   #hero_area .main .item_left .link_group .hero_social li {margin-right: 10px; margin-top: 0;}
+   #hero_area .main {padding: 120px 10px; display: flex;}
+   #hero_area .main .item_left .link_group {margin-top: 20px;display: none;}
+   #hero_area .main .item_left .link_group .btn { padding: 3px 5px; height: 30px; display: none;}
+   #hero_area .main .item_right::after {display: none;}
+   #hero_area .design_eliment .hero3_ele_updown {bottom: 4%;}
+   #hero_area .design_eliment .hero4_ele_updown {left: 45%;}
+   /* ---------------right site--------------- */
+   #hero_area .main .item_right {width: 50%; padding: 0;}
+   #hero_area .main .item_right img {width: 100%;}
+   #hero_area .main .item_right img {position: relative;}
+   #hero_area .main .item_right ul li:nth-child(1) { top: 15px; left: 0px;}
+   #hero_area .main .item_right ul li p {margin-right: 20px;}
+   #hero_area .main .item_right ul li p span {font-size: 60%;top: 16%;left: 30%;}
+   #hero_area .main .item_right ul li:nth-child(2) {right: 10px;}
+  
+   /* ------------------intro section start ------------------ */
+   #intro {margin-top: -60px;}
+   #intro .intros_card { flex-wrap: wrap; display: flex; justify-content: space-between;}
+   #intro .intro_card { width: 49%; padding:0 10px; margin: 0; margin-bottom: 30px;}
+   #intro .intro_card .item {padding: 0px; }
+   #intro .intro_card .item::after {transform: rotate(-5deg);}
+   #intro .intro_card .item:hover::after {transform: rotate(-5deg);}
+   #intro .intro_design {top: 2%;}
+
+
+   /* ------------------About section start ------------------ */
+   #about {padding-top: 20px;padding-bottom: 20px;}
+   #about .main {flex-wrap: wrap;}
+   #about .main .images { width: 50%;margin-right: 0px;}
+   #about .main .content {width: 50%; margin-left: 0px;}
+   #about .main .images .about_imags1 {width: 70%;margin-left: 40px;}
+   #about .main .images .about_imags2 {width: 46%;left: 0;bottom: 45%;margin-left: 20px;}
+   #about .main .images::after {left: 6%; top: 15%; height: 30px;width: 30px;}
+   #about .main .images::before {right: 30%;bottom: 50%;}
+   #about .about_bg_animation1 {bottom: -1%;}
+
+   /* ------------------About right site section ------------------ */
+   #about .main .content {margin-top: 115px;padding: 10px; }
+   #about .main .personal_details {margin: 20px 0;}
+   #about .main .content h2 {margin-bottom: 15px; text-align: start;}
+   #about .main .content h2 {margin-bottom: 15px; text-align: start;}
+   #about .main .content p {text-align: start;}
+   #about .main .personal_details .personal_info{text-align: start;}
+   #about .main .personal_details .numbners {     margin-left: 10px; text-align: start;}
+   #about .main .a_btn {padding: 12px 20px;}
+   .design_element {display: none;}
+
+
+   /* ------------------About section end ------------------ */
+   
+   /* ------------------Skill section start ------------------ */
+   #skill_section {padding: 20px 0px 20px 0px;}
+   #skill_section .main {flex-wrap: wrap; padding: 0 10px;} 
+   #skill_section .main .content_block { width: 50%;}
+   #skill_section .main .content_block h2 {margin-bottom: 20px;}
+   #skill_section .main .barfillers { width: 50%; margin: 0;}
+   
+   /* ------------------Skill section end ------------------ */
+
+   /* ------------------Profile section start ------------------ */
+   #portfolio_section {padding: 20px 0px 20px 0px;}
+   #portfolio_section .title {margin-bottom: 20px;}
+   #portfolio_section .button_group button:nth-child(1) {margin-bottom: 10px;}
+   #portfolio_section .button_group {margin-bottom: 20px;}
+   #portfolio_section .items {padding: 0 0px; display: flex; justify-content: space-between; flex-wrap: wrap; padding: 0 10px;}
+   #portfolio_section .items .main {width: 48.5%;}
+   #portfolio_section .items .main .box_content {top: 100%;opacity: 1; width: 100%; background: #fd562a; padding: 30px 0 20px;}
+   #portfolio_section .items .main .box { height: 300px;}
+   #portfolio_section .items .main .box img{transform: translate(-1%, -26%); width: 102%;}
+   #portfolio_section .items .main:hover .box_content {top: 100%;opacity: 1;}
+   #portfolio_section .items .main .icon {opacity: 1;top: 0%;}
+   #portfolio_section .items .main:hover .icon {top: 0%;opacity: 1;}
+   #portfolio_section .items .main:hover::before {display: none;}
+   #portfolio_section .items .main:hover::after {display: none;}
+   #portfolio_section .items .main .icon a {background: rgb(255, 255, 255);}
+
+   /* ------------------service section start ------------------ */
+   #service_section {padding: 20px 0px 20px 0px;}
+   #service_section .main .title {margin-bottom: 20px;}
+   #service_section .items .main {width: 50%;}
+   #service_section .items .main .box {padding: 20px 10px;}
+   #service_section .items .main .box h2 {margin-bottom: 20px;}
+   #service_section .items .main .box .icon_box {margin-bottom: 20px;}
+   #service_section .about_bg_animation {top: 3%;}
+   #service_section .about_bg_animation1 {top: 98%;}
+   #service_section .about_bg_animation2 {bottom: 0%;}
+  
+   /* ------------------service section end ------------------ */
+
+   /* ------------------feature section start ------------------ */
+   #features_section {padding: 20px 0px 20px 0px;}
+   .image_section.aos-init.aos-animate {padding: 0 10px;}
+   #features_section .main .image_section .imag_wrap img {width: 100%;}
+   #features_section .main {display: flex;justify-content: space-between; flex-wrap:wrap ; padding: 0 10px;}
+   #features_section .main .image_section{width: 48%;}
+   #features_section .main .image_contant {width: 48%; margin-left: 0px; padding-left: 0px;}
+   #features_section .main .image_contant .block_title {margin-bottom: 20px; margin-top: 20px;}
+   #features_section .main .image_contant .block_title span {font-size: 15px;}
+   #features_section .main .image_contant .block_title h2 { margin-bottom: 20px;}
+   #features_section .main .image_contant .features_list .items {margin-bottom: 20px;}
+   #features_section .main .image_contant .features_list .content_wraper h4 {margin-bottom: 5px;}
+   /* ------------------feature section end ------------------ */
+
+   /* ------------------testimonial section start ------------------ */
+   #testimonial_section {padding: 20px 0px 20px 0px;}
+   #testimonial_section .main .title {margin-bottom: 0px;}
+   #testimonial_section .main .testimonial_item .item_wraper {padding: 60px 20px 0px;}
+
+   /* ------------------Blog section Start ------------------ */
+   #blog_section {padding: 20px 0px 20px 0px;}
+   #blog_section .main .title {text-align: center;margin-bottom: 20px;}
+   #blog_section .main .title .intro_title p {width: 100%;}
+   #blog_section .main .content {flex-wrap: wrap;padding: 0 10px;}
+   #blog_section .main .content .item_right {width: 100%;padding: 0 0px; margin-bottom: 20px;}
+   #blog_section .main .content .item_right .post_content {text-align: start; left: 10px;bottom: 10px;right: 10px;margin-bottom: 12px; margin-top: 12px !important;}
+   #blog_section .main .content .item_right .post_content ul{display: flex; flex-wrap: wrap; margin-bottom: 20px;}
+   #blog_section .main .content .item_left {width: 100%;padding: 0 0px;}
+   #blog_section .main .content .item_left .image_wrapper {display: flex;flex-wrap: wrap;}
+   #blog_section .main .content .item_left .post_content .main {margin-bottom: 20px;padding: 0 0px;width: 49%;}
+   #blog_section .main .content .item_left .post_content .main .item_wrpper .items {margin: 20px;}
+   #blog_section .main .content .item_right .image_content {height: 400px;}
+   #blog_section .main .content .item_left .post_content .main .item_wrpper {height: 400px;}
+   #blog_section .about_bg_animation {top: 2%;}
+   #blog_section .about_bg_animation1 { bottom: 0%;}
+   #blog_section .about_bg_animation2 {bottom: 0%;}
+   
+   /* ------------------partner section Start ------------------ */
+   #partner_section {padding: 20px 0px 20px 0px;}
+   #partner_section .main {padding: 0 10px;}
+
+   /* ------------------contact section Start ------------------ */
+   #contact_section {padding: 20px 0px 0px 0px;}
+   #contact_section .main{padding: 0 10px; display: flex;flex-wrap: wrap;}
+   #contact_section .title {margin-bottom: 20px; width: 100%;}
+   #contact_section .contact {width: 100%; flex-wrap: wrap;}
+   #contact_section .contact_section {margin-bottom: 20px;}
+   #contact_section .contact_inf {width: 100%;flex-wrap: wrap;}
+   #contact_section .contact_inf .google_map {margin: 0;width: 100%;}
+   #contact_section .contact_inf .google_map .map {margin-right: 0; height: 300px;}
+   #contact_section .contact_inf .google_map .map .map_zoom {height: 100%;width: 100%;}
+   
+   #contact_section .contact_inf .coontact_form {padding: 20px 0px 20px 0px; width: 70%; margin: auto; }
+   #contact_section .contact_inf .coontact_form h3 { margin-bottom: 20px; }
+   #contact_section .contact_inf .coontact_form .input_group:nth-child(1) {width: 49%;}
+   #contact_section .contact_inf .coontact_form .input_group:nth-child(2) {width: 49%;}
+   #contact_section .contact_inf .coontact_form .input_group:nth-child(3) {width: 100%;text-align: center;}
+   #contact_section .about_bg_animation {top: 2%;}
+   
+   /* ------------------footer section Start ------------------ */
+   #footer_section {padding: 20px 0px 20px 0px;}
+   #footer_section .footer_toop {top: -18%;}
+   #footer_section .footer_center .content p {margin: 20px 0;}
+   #footer_section .footer_buttom {margin-top: 20px;}
+   #footer_section .footer_buttom .item_right { width: 50%; text-align: start;}
+   #footer_section .footer_buttom .item_left {width: 50%; text-align: center;}
+   #footer_section .footer_buttom .item_left ul li {margin-left: 0px;}
+   #footer_section .footer_buttom .item_left ul {margin-top: 0px;}
+
+
+}
+
+/* -------------------------X-Large devices (large desktops, 1200px and up------------------------- */
+@media (min-width: 992px) and (max-width: 1199.9px){
+   
+   /* ----------------------hero section start---------------------- */
+   #hero_area .main {padding: 202px 10px;}
+   #hero_area .design_eliment .hero1_updown {top: 14%;}
+   #hero_area .design_eliment .hero2_move {top: 14%;}
+   
+   
+   /* ----------------------skill section start---------------------- */
+   #skill_section .main {padding: 0 10px;}
+   
+   /* ----------------------portfolio section start---------------------- */
+   #portfolio_section .items .main .box img {width: 133%;}
+   #portfolio_section .items {padding: 0 10px;}
+   
+   /* ----------------------about section start---------------------- */
+   #about .main {padding: 0 10px;}
+   #features_section .main {padding: 0 10px;}
+   
+   /* ----------------------blog section start---------------------- */
+   #blog_section .about_bg_animation1 {bottom: 0%;}
+   #blog_section .main .content .item_left .post_content .main {padding: 0px;width: 48%;}
+   
+   /* ----------------------contact section start---------------------- */
+   #contact_section .contact {padding: 0 10px;}
+}
+
+/* -------------------------XX-Large devices (larger desktops, 1400px and up)------------------------- */
+
+@media (min-width: 1200px) and (max-width: 1499.9px){
+   
+   /* ----------------------hero section start---------------------- */
+#hero_area .main {padding: 202px 10px;}
+   #hero_area .design_eliment .hero1_updown {top: 14%;}
+   #hero_area .design_eliment .hero2_move {top: 14%;}
+
+   
+   /* ----------------------skill section start---------------------- */
+   #skill_section .main {padding: 0 10px;}
+   
+   /* ----------------------portfolio section start---------------------- */
+   #portfolio_section .items .main .box img {width: 133%;}
+   #portfolio_section .items {padding: 0 10px;}
+   
+   /* ----------------------about section start---------------------- */
+   #about .main {padding: 0 10px;}
+   #features_section .main {padding: 0 10px;}
+
+/* ----------------------blog section start---------------------- */
+#blog_section .about_bg_animation1 {bottom: 0%;}
+#blog_section .main .content .item_left .post_content .main {padding: 0px;width: 48%;}
+
+/* ----------------------contact section start---------------------- */
+#contact_section .contact {padding: 0 10px;}
+}

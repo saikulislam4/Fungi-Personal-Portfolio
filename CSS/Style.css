@@ -119,7 +119,7 @@ img {
 
 /* -------------left item css ------------- */
 #hero_area {
-  background: url(../Image/hero-bg.jpg) no-repeat center center;
+  background: url(../IMAGE/hero-bg.jpg) no-repeat center center;
   background-size: cover;
   top: -100px;
   position: relative;
@@ -641,7 +641,7 @@ img {
 /* ---------------About section css end--------------- */
 /* ---------------skill section css start--------------- */
 #skill_section {
-  background: url(../image/skill-bg.jpg) no-repeat repeat center center;
+  background: url(../IMAGE/skill-bg.jpg) no-repeat repeat center center;
   background-size: cover;
   padding: 120px 0px 60px 0px;
 }
@@ -1057,7 +1057,7 @@ img {
 /* ---------------features section css end--------------- */
 /* ---------------testimonial section css start--------------- */
 #testimonial_section {
-  background: url(../image/testimonial-bg.jpg);
+  background: url(../IMAGE/testimonial-bg.jpg);
   padding: 120px 0px 100px 0px;
   position: relative;
 }
@@ -1637,7 +1637,7 @@ img {
 /* ---------------counter section css end--------------- */
 /* ---------------footer section css start--------------- */
 #footer_section {
-  background: url(../image/footer-bg.jpg) no-repeat center center;
+  background: url(../IMAGE/footer-bg.jpg) no-repeat center center;
   block-size: cover;
   padding: 90px 0px 60px 0px;
 }
